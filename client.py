@@ -222,7 +222,7 @@ class MCPClient:
 
 
 async def main():
-    server_script_path = "D:\\mcp-project\\server.py"
+    server_script_path = "/Users/jerrylcj/python_proj/mcp-proj/server.py"
     client = MCPClient()
     try:
         await client.connect_to_server(server_script_path)
